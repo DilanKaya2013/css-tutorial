@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Uygulama Örneği</title>
+    <style>
+        /*Resetleme Kodları*/
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #galeri{
+            padding: 10px;
+            display: flex;
+            background-color: #a7f0f5;
+            gap: 10px;
+            width: 900px;
+            margin: 0 auto; /*Yukarıdaki aşağıdaki 0 sağdan soldan auto */
+            flex-wrap: wrap;
+    }
+    #galeri img{
+        width:calc(830px/3);/*Genişlik verir*/
+        opacity: 0.5;
+        transition: 300ms all;
+    }
+    
+    #galeri img:hover{
+        opacity: 1;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Flex Uygulçaması</h1>
+    <div id="galeri">
+
+
+        <img src="https://picsum.photos/id/237/300/200" alt="">
+        <img src="https://picsum.photos/id/237/300/200" alt="">
+        <img src="https://picsum.photos/id/237/300/200" alt="">
+        <img src="https://picsum.photos/id/237/300/200" alt="">
+        <img src="https://picsum.photos/id/237/300/200" alt="">
+        <img src="https://picsum.photos/id/237/300/200" alt="">
+        <img src="https://picsum.photos/id/237/300/200" alt="">
+        
+    
+        
+       
+    </div>
+
+
+</body>
+</html>
