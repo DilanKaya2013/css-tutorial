@@ -1,0 +1,85 @@
+*{
+    margin: 0;  /*dış boşlukları sıfırla*/
+    padding: 0; /*iç boşlukları sıfırla*/
+    box-sizing: border-box; /* Kutu genişlik ve yüksekliğini border'e kadar belirler*/
+    
+    
+}
+
+body{
+    background-image: url(../img/fresh-spring-background.jpg);
+    background-size: cover; /* Resmin ekranı kaplaması için kullanılır*/
+    min-height: 100vh;
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#logo{
+    text-align: center;
+    padding: 24px;
+
+}
+#logo img{
+    width: 150px;
+}
+.container{
+    margin: auto;
+    width: 70%;
+}
+#menu{
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #000; /* 0 0 x ve y konumu 5px kalınlığında */
+}
+
+#menu ul{
+    display: flex;
+    justify-content: space-around; /*Flex nesnelerin hizalanması*/
+    list-style-type: none;
+    padding: 10px;
+
+}
+#menu a{
+    text-decoration: none;/*linklerin alt çizgisini kaldırır*/
+    color: #e66c06;
+    font-size: larger;
+    font-family: sans-serif;
+    
+}
+#menu a:hover{
+    background-color: #e66c06;
+    color: #ffffff;
+    transition: 1s; /*Gecikme süresi ekler*/
+}
+.banner{
+    text-align: center;
+}
+.urunler{
+    display: flex;
+    gap: 24px;
+}
+.urun {
+   flex: 1;/*urun sınıfını alt divlerin aynı genişlikte olmasını sağlar*/
+   box-shadow: 0 0 5px gray; /* 0 0 x ve y konumu 5px kalınlığında */
+}
+.urun img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff92;
+    padding: 5px;
+    box-shadow: 0 0 5px gray;
+
+}
+.sol{
+    color: #f70a0a;
+   
+    
+}
+.sag{
+        color: #0a1a74;
+}
