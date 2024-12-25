@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+</head>
+<body>
+    <form action="kaydet" method="post">
+
+        <fieldset>
+            <legend>Mesaj Gönder</legend>
+            <label for="isim"></label><br>
+            <input type="text" id="isim" name="isim" placeholder="Adınızı Girin"  required><br><br>
+    
+            <label for="eposta"></label>
+            <input type="email" id="eposta" name="eposta" placeholder="E-posta Adresini Giriniz"  required><br><br>
+
+             <input type="radio" name="cinsiyet" id="kiz">
+             <label for="kiz">Kız</label>
+             <input type="radio" name="cinsiyet" id="erkek">
+             <label for="erkek">Erkek</label><br><br>
+
+
+           
+            <select name="bolum" id="bolum"><br><br>
+            <option value="1">Bilgi almak istiyorum</option><br><br>
+            <option value="2">Öneride bulunmak istiyorum</option><br><br>
+            <option value="3">Şikayetimi iletmek istiyorum</option> <br><br>
+           </select><br><br>
+
+
+           <br><br><textarea name="not" id="not" cols="50" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque obcaecati recusandae repellat consequuntur deserunt voluptates necessitatibus, deleniti omnis numquam, fugit sint, perspiciatis vero et molestiae eius laudantium praesentium. Aliquid, at? </textarea>
+           <br><br>
+            
+           
+            <input type="submit" value="Gönder">
+         
+            <button type="reset">Temizle</button>
+
+            
+        </fieldset>
+
+       
+        
+
+
+
+    </form>
+   
+</body>
+</html>

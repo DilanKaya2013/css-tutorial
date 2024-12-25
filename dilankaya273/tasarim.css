@@ -1,0 +1,67 @@
+*{
+    
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+   box-sizing: content-box;
+}
+body{
+    
+    margin: 100px;
+    color: #fff;
+    font-family: "Playwrite CO", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-size-adjust: 125%;
+    
+    
+  }
+.container{
+    background-color: #222;
+    color: #fff;
+    margin: 60px auto;
+    width: calc(960px);
+    
+    
+}
+
+#menu a{
+   
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+
+}
+#menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.branner{
+   margin: 20px;
+    text-align: center;
+ 
+    object-fit: cover;
+    width: 10;
+    height: 100;
+    
+}
+#resim img{
+   
+    border: solid;
+    width: 900px;
+    height: 1000px;
+    border-radius: 30px;
+    text-align: center;
+    object-fit: cover;
+   
+
+
+}
+footer{
+    height: 8vh;
+    margin: 20px;
+}
