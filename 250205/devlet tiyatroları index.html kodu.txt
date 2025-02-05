@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devlet Tiyatroları Kurumsal Site</title>
+    <link rel="stylesheet" href="sablon.css">
+    <link rel="stylesheet" href="tasarim.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <nav id="top-menu">
+                        <ul class="d-flex">
+                            <li><a href="#">Sanatsal Etkinlik</a></li>
+                            <li><a href="#">Festivaller</a></li>
+                            <li><a href="#">Kütüphaneler</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-4">
+                    <nav id="lang-menu">
+                        <ul class="d-flex flex-end">
+                            <li><a href="#">TR</a></li>
+                            <li><a href="#">EN</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row alt-cizgi-2">
+                <div class="col-12">
+                    <a href="index.html" id="logo">
+                        <img src="res/img/logo.png" alt="Devlet Tiyatrosu Logosu">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <nav id="main-menu">
+                        <ul class="d-flex flex-center">
+                            <li><a href="index.html">Ana Sayfa</a></li>
+                            <li><a href="#">Kültür Sanat</a></li>
+                            <li><a href="#">Oyunlar</a></li>
+                            <li><a href="#">Turneler</a></li>
+                            <li><a href="#">Bilet Satış</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row nmargin-1">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="res/resimler/oyun1.jpeg" alt="birinci oyun" class="card-poster">
+                        <h2 class="card-title">SİYAHLI KADIN</h2>
+                        <div class="card-detail">
+                            <p><strong>Yazan:</strong>Susan Hill</p>
+                            <p><strong>Oyunlaştıran:</strong>Stephen Mallatratt</p>
+                            <p><strong>Yöneten:</strong>Mesut Turan</p>
+                        </div>
+                        <button class="buy-ticket">Bilet Al</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="res/resimler/oyun2.jpeg" alt="ikinci oyun" class="card-poster">
+                        <h2 class="card-title">SİYAHLI KADIN</h2>
+                        <div class="card-detail">
+                            <p><strong>Yazan:</strong>Susan Hill</p>
+                            <p><strong>Oyunlaştıran:</strong>Stephen Mallatratt</p>
+                            <p><strong>Yöneten:</strong>Mesut Turan</p>
+                        </div>
+                        <button class="buy-ticket">Bilet Al</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="res/resimler/oyun3.jpeg" alt="üçüncü oyun" class="card-poster">
+                        <h2 class="card-title">SİYAHLI KADIN</h2>
+                        <div class="card-detail">
+                            <p><strong>Yazan:</strong>Susan Hill</p>
+                            <p><strong>Oyunlaştıran:</strong>Stephen Mallatratt</p>
+                            <p><strong>Yöneten:</strong>Mesut Turan</p>
+                        </div>
+                        <button class="buy-ticket">Bilet Al</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="res/resimler/oyun4.jpeg" alt="dördüncü oyun" class="card-poster">
+                        <h2 class="card-title">SİYAHLI KADIN</h2>
+                        <div class="card-detail">
+                            <p><strong>Yazan:</strong>Susan Hill</p>
+                            <p><strong>Oyunlaştıran:</strong>Stephen Mallatratt</p>
+                            <p><strong>Yöneten:</strong>Mesut Turan</p>
+                        </div>
+                        <button class="buy-ticket">Bilet Al</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="res/resimler/oyun5.jpeg" alt="beşinci oyun" class="card-poster">
+                        <h2 class="card-title">SİYAHLI KADIN</h2>
+                        <div class="card-detail">
+                            <p><strong>Yazan:</strong>Susan Hill</p>
+                            <p><strong>Oyunlaştıran:</strong>Stephen Mallatratt</p>
+                            <p><strong>Yöneten:</strong>Mesut Turan</p>
+                        </div>
+                        <button class="buy-ticket">Bilet Al</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="res/resimler/oyun6.jpeg" alt="altıncı oyun" class="card-poster">
+                        <h2 class="card-title">SİYAHLI KADIN</h2>
+                        <div class="card-detail">
+                            <p><strong>Yazan:</strong>Susan Hill</p>
+                            <p><strong>Oyunlaştıran:</strong>Stephen Mallatratt</p>
+                            <p><strong>Yöneten:</strong>Mesut Turan</p>
+                        </div>
+                        <button class="buy-ticket">Bilet Al</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="soz">
+                        <q>"SANATSIZ KALAN BİR MİLLETİN HAYAT DAMARLARINDAN BİRİ KOPMUŞ DEMEKTİR."</q>
+                        <p>Mustafa Kemal Atatürk</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-center">
+                <div class="col-8">
+                    <nav id="footer-menu">
+                        <ul class="d-flex">
+                            <li><a href="index.html">Ana Sayfa</a></li>
+                            <li><a href="#">Genel Program</a></li>
+                            <li><a href="#">Bölgeler</a></li>
+                            <li><a href="#">Festivaller</a></li>
+                            <li><a href="#">Turneler</a></li>
+                            <li><a href="#">Kurumsal</a></li>
+                            <li><a href="#">Haber</a></li>
+                            <li><a href="#">Duyuru</a></li>
+                            <li><a href="#">İletişim</a></li>
+                            <li><a href="#">Portal</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-4">
+                    <nav id="social-menu">
+                        <ul class="d-flex flex-end">
+                            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <p class="footer-aciklama">
+                    <i class="bi bi-building"></i> Refik Ahmet Sevengil Tiyatro Kütüphanesi | 
+                    <a href="#">Kütüphane Kataloğu</a> |
+                    <a href="#">Dijital Oyun</a>
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p>Terimler & Koşullar Gizlilik Politikası Çerez Politikası</p>
+                </div>
+                <div class="col-2 text-end">
+                    <p>
+                        International Relations
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                 <p>Copyright © 2024 DT • T.C. Kültür ve Turizm Bakanlığı Devlet Tiyatroları, tüm hakları saklıdır.</p>
+                 <p>Nothing in these materials is an offer to sell any of the components or devices referenced herein. References to "Devlet Tiyatroları"; may mean Devlet Tiyatroları Incorporated, or subsidiaries or business units within the Devlet Tiyatroları corporate structure, as applicable. Materials that are as of a specific date, including but not limited to press releases, presentations, blog posts and webcasts, may have been superseded by subsequent events or disclosures. Devlet Tiyatroları incorporated includes Devlet Tiyatroları's licensing business, QTL, and the vast majority of its patent portfolio. Devlet Tiyatroları Technologies, Inc., a wholly-owned subsidiary of Devlet Tiyatroları Incorporated, operates, along with ist subsidiaries, substantially all Devlet Tiyatroları's engineering, research and development functions, and substantially all of its products and services businesses. Devlet Tiyatroları products referenced on this page are products of Devlet Tiyatroları Technologies, Inc. and/or its subsidiaries.</p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

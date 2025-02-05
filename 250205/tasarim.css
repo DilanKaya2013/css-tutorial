@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(202, 204, 209);
+}
+
+.alt-cizgi-2{
+    border-bottom: 2px solid rgb(204, 204, 204);
+}
+
+header{
+    background-color: rgb(37,38,39);
+    border-bottom: 2px solid rgb(206, 24, 30);
+}
+
+#top-menu a,
+#lang-menu a,
+#footer-menu a,
+#social-menu a{
+    display: block;
+    padding:0.5em ;
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: .75em;
+}
+
+#main-menu a{
+    display: block;
+    padding:0.5em 1em ;
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#main-menu a:hover{
+    background-color : rgb(206, 24, 30);
+}
+
+.card{
+    background-color: #252627;
+    padding: 1.5em;
+    margin: 1em .75em 0 .75em;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.card-poster{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.card-title{
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.buy-ticket{
+    background-color : rgb(206, 24, 30);
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+    margin-top: 1em;
+    font-size: 1em;
+    border: none;
+}
+
+.nmargin-1{
+    margin-left: -0.75em;
+    margin-right: -0.75em;
+}
+
+footer{
+    background-color: rgb(37,38,39);
+    border-top: 2px solid rgb(206, 24, 30);
+    margin-top: 1em;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #ccc;
+}
+
+.soz{
+    border: 10px solid #fff;
+    margin:1rem 0 ;
+    padding: 1rem;
+    background-color: rgb(206, 24, 30);
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.soz q{
+    font-size: 1.5rem;
+}
+
+.soz p{
+    text-align: end;
+    font-weight: 600;
+}
+
+.footer-aciklama{
+    color: #ccc;
+}
+
+.footer-aciklama a{
+    color: #fff;
+}
+
+#social-menu a{
+    font-size: 1.5rem;
+}
