@@ -1,0 +1,156 @@
+/* Arka Plan */
+.site-background {
+  background: url('res/arka-plan.png') repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Üst Boşluk */
+.top-space {
+  height: 60px; /* daha fazla boşluk */
+}
+
+/* Header Menü Bar */
+.menu-bar {
+  padding: 8px 0; /* daha kısa header */
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+/* Menü Linkleri */
+.menu-link {
+  font-weight: bold;
+  color: #d90463;
+  font-size: 21px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+  margin-right: 50px;
+  padding-left: 50px;
+}
+
+.menu-link-aktivite{
+  font-weight: bold;
+  color: #d90463;
+  font-size: 21px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+  margin-left:20px;
+  margin-right: 50px;
+}
+
+.menu-link:hover {
+  color: #ad1457;
+  text-decoration: underline;
+}
+
+/* Logo */
+.logo-link {
+  position: relative;
+}
+
+.header-logo {
+  height: 140px;
+  margin-top: -100px; /* logoyu yukarı taşıyoruz (yeşil çizgilerin üstüne ve main üstüne) */
+  margin-bottom: -100px;
+  z-index: 3;
+}
+
+/* Yeşil Şeritler */
+
+.acik-yesil {
+  height: 12px;
+  background: #AADA91;
+  
+}
+.koyu-yesil{
+  height: 12px;
+  background: #008542;
+  
+}
+
+/* Main */
+main {
+  background-color: white;
+  margin-top: 0;
+  border-radius: 0; /* kenarlar düz */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+ /* Carousel Özellikleri */
+ .carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 10px 10px; /* Üst kısmı oval, alt kısmı daha hafif oval */
+  border: 5px solid #f78fb3; /* Pembe Renkli Çerçeve */
+ 
+  height: 100%; /* Yüksekliği %100 yaparak görselin tamamının görünmesini sağlıyoruz */
+  object-fit: cover; /* Resmin boyutunu düzgün şekilde sığdırır */
+}
+
+.carousel-inner {
+  max-height: 400px;
+  padding-left: 15px; /* Kenarlarda boşluk bırak */
+  padding-right: 15px;
+}
+
+/* Carousel Caption (Cümleler) */
+.carousel-caption {
+  font-size: 1.5rem;
+  color: #f78fb3; /* Pembe Renkli Yazı */
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.6); /* Hafif arka plan */
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* Boşlukları düzenledim */
+.carousel-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Prev ve Next Butonları Ortalı */
+.carousel-control-prev, .carousel-control-next {
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.5); /* Buton Arka Planı */
+  border-radius: 50%; /* Yuvarlak Butonlar */
+  width: 50px;
+  height: 50px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #f78fb3; /* Pembe Renkli Oklar */
+}
+
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: white;
+  margin-top: 0;
+  width: 100%;
+}
+
+.text-pink {
+  color: #d90463;
+  font-weight: bold;
+}
