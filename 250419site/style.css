@@ -5,6 +5,7 @@
   min-height: 100vh;
 }
 
+
 /* Üst Boşluk */
 .top-space {
   height: 60px; /* daha fazla boşluk */
@@ -75,6 +76,7 @@
 main {
   background-color: white;
   margin-top: 0;
+  margin-bottom: 10px;
   border-radius: 0; /* kenarlar düz */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -82,17 +84,17 @@ main {
 
  /* Carousel Özellikleri */
  .carousel-item img {
-  width: 100%;
+  width: auto;
   height: auto;
   border-radius: 20px 20px 10px 10px; /* Üst kısmı oval, alt kısmı daha hafif oval */
-  border: 5px solid #f78fb3; /* Pembe Renkli Çerçeve */
+  border: 12px solid #D30057; /* Pembe Renkli Çerçeve */
  
   height: 100%; /* Yüksekliği %100 yaparak görselin tamamının görünmesini sağlıyoruz */
   object-fit: cover; /* Resmin boyutunu düzgün şekilde sığdırır */
 }
 
 .carousel-inner {
-  max-height: 400px;
+  max-height: 1600px;
   padding-left: 15px; /* Kenarlarda boşluk bırak */
   padding-right: 15px;
 }
@@ -111,15 +113,12 @@ main {
 }
 
 /* Boşlukları düzenledim */
-.carousel-container {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+
 
 /* Prev ve Next Butonları Ortalı */
 .carousel-control-prev, .carousel-control-next {
   font-size: 2rem;
-  background-color: rgba(255, 255, 255, 0.5); /* Buton Arka Planı */
+  background-color: rgba(230, 66, 66, 0.5); /* Buton Arka Planı */
   border-radius: 50%; /* Yuvarlak Butonlar */
   width: 50px;
   height: 50px;
@@ -136,11 +135,11 @@ main {
 }
 
 .carousel-control-prev {
-  left: 10px;
+  left: 50px;
 }
 
 .carousel-control-next {
-  right: 10px;
+  right: 50px;
 }
 
 /* Footer */
@@ -150,7 +149,11 @@ footer {
   width: 100%;
 }
 
+
 .text-pink {
   color: #d90463;
   font-weight: bold;
+  font-size: 18px;
 }
+
+
