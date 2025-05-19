@@ -97,6 +97,7 @@ main {
   max-height: 1600px;
   padding-left: 15px; /* Kenarlarda boşluk bırak */
   padding-right: 15px;
+  
 }
 
 /* Carousel Caption (Cümleler) */
@@ -107,40 +108,45 @@ main {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255, 255, 255, 0.6); /* Hafif arka plan */
   border-radius: 10px;
   padding: 5px;
+  
 }
 
 /* Boşlukları düzenledim */
 
 
 /* Prev ve Next Butonları Ortalı */
-.carousel-control-prev, .carousel-control-next {
-  font-size: 2rem;
-  background-color: rgba(230, 66, 66, 0.5); /* Buton Arka Planı */
-  border-radius: 50%; /* Yuvarlak Butonlar */
-  width: 50px;
-  height: 50px;
+.text-pink {
+  color: #e10068;
+  font-weight: bold;
+  font-size: 17px;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: #f78fb3; /* Pembe Renkli Oklar */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #5cab52;
+  width: 40px;
+  height: 40px;
 }
 
-.carousel-control-prev, .carousel-control-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+  content: '';
+  width: 0;
+  height: 0;
 }
 
-.carousel-control-prev {
-  left: 50px;
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%235cab52" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M11 1L3 8l8 7"/></svg>');
 }
 
-.carousel-control-next {
-  right: 50px;
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%235cab52" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M5 1l8 7-8 7"/></svg>');
 }
+
 
 /* Footer */
 footer {
@@ -150,10 +156,6 @@ footer {
 }
 
 
-.text-pink {
-  color: #d90463;
-  font-weight: bold;
-  font-size: 18px;
-}
+
 
 
